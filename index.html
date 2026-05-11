@@ -148,10 +148,37 @@
           <input placeholder="Name" />
           <input placeholder="Phone or email" />
           <input placeholder="City" />
-          <textarea placeholder="What do you need removed or cleaned up?"></textarea>
-          <a class="button dark" href="mailto:HuronValleyHandling@gmail.com?subject=HVH%20Quote%20Request&body=Name:%0D%0ACity:%0D%0APhone:%0D%0AWhat%20needs%20removed:%0D%0AAre%20there%20stairs%20or%20heavy%20items:%0D%0APreferred%20date:%0D%0A">Email HVH for a Free Quote</a>
-          <button class="button primary" onclick="openCallModal()">Call HVH Now</button>
-        </div>
+         <form class="quote-box" action="https://formspree.io/f/xzdoyzvn" method="POST">
+  <input name="name" placeholder="Name" required />
+
+  <input name="contact" placeholder="Phone or Email" required />
+
+  <input name="city" placeholder="City" required />
+
+  <textarea
+    name="message"
+    placeholder="What do you need removed or cleaned up?"
+    required
+  ></textarea>
+
+  <input
+    type="hidden"
+    name="_subject"
+    value="New HVH Quote Request"
+  />
+
+  <button class="button dark" type="submit">
+    Submit Quote Request
+  </button>
+
+  <button
+    class="button primary"
+    type="button"
+    onclick="openCallModal()"
+  >
+    Call HVH Now
+  </button>
+</form>
       </div>
     </section>
   </main>
