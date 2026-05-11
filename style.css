@@ -40,7 +40,7 @@ a {
 }
 
 .brand-main {
-  color: #7dd3fc;
+  color: #dc2626;
   font-size: 32px;
   font-weight: 900;
 }
@@ -56,7 +56,7 @@ a {
 }
 
 .nav-links a:hover {
-  color: #7dd3fc;
+  color: #dc2626;
 }
 
 .hero-grid {
@@ -121,7 +121,7 @@ h2 {
 }
 
 .primary {
-  background: #7dd3fc;
+  background: #dc2626;
   color: #020617;
 }
 
@@ -240,7 +240,7 @@ h2 {
 }
 
 .demo-box h3 {
-  color: #7dd3fc;
+  color: #dc2626;
   font-size: 28px;
 }
 
